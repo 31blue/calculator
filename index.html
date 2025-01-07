@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-
   <head>
     <meta charset="UTF-8" />
     <title>계산기</title>
@@ -9,19 +8,17 @@
     <meta name="theme-color" content="#3178c6" />
     <link rel="icon" href="https://www.typescriptlang.org/favicon-32x32.png" />
     <link rel="stylesheet" href="./styles/main.css" />
-
+    <script type="module" src="/src/index.ts"></script>
   </head>
 
   <body>
-
     <h1 class="sr-only">계산기 앱 구현</h1>
 
     <main>
       <div class="calculator">
-
         <div class="screen">
-          <span class="operation">101 + 604 + </span>
-          <output class="output">705</output>
+          <span class="operation"></span>
+          <output class="output"></output>
         </div>
 
         <div class="button-group" role="group">
@@ -48,7 +45,5 @@
         </div>
       </div>
     </main>
-
   </body>
-
 </html>
